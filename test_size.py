@@ -2,8 +2,8 @@
 Test Notes instance method size()
 File: test_size.py
 Inital developers: COMP801 instructors
-Developer: enter your name
-Collaborator(s): enter your collaborator(s) name(s):
+Developer: Nalin
+Collaborator(s): None
 """
 import pytest
 from notes import Notes

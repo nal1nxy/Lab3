@@ -3,8 +3,8 @@ More practice with modules and application of Python class concept, string,
 and list of strings with a given structre (words separated by white spaces).
 File: notes.py
 Initial developers: COMP 801 instructors
-Developer: enter your name
-Collaborator(s): enter your collaborator(s) name(s)
+Developer: Nalin
+Collaborator(s): None
 """
 
 

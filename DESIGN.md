@@ -1,5 +1,5 @@
-- **Developer**: 
-- **Collaborator(s)**: 
+- **Developer**: Nalin
+- **Collaborator(s)**: None
 
 ## size() method design
 To find out how many elements in the `self.notes` list, we use the Python built-in 
