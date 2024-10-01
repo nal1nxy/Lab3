@@ -18,8 +18,12 @@ def main():
     print(f'Notes count: {n_count}')
 
     # create another Notes object and find out something else about it.
-    Sentence = "create another Notes object and find out something else about it."
-    print(Notes.how_often_word(Sentence))
+    sentences = "create another Notes object and find out."
+    print(Notes.how_often_word(sentences))
+
+    my_list = ["notes", "is", "back", "back", "notes"]
+    note_obj = Notes(my_list)
+    print(note_obj.word_histogram())
 
 
 main()
