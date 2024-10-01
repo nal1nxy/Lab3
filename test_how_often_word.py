@@ -8,7 +8,7 @@ import pytest
 from notes import Notes
 
 
-def test_how_often_word_without_repetion(sentence):
+def test_how_often_word_without_repetion():
     """
     Test a sentence that has words without repetition
     """
@@ -18,7 +18,7 @@ def test_how_often_word_without_repetion(sentence):
     assert actual == expected
 
 
-def test_hoe_often_word_empty_string(sentence):
+def test_hoe_often_word_empty_string():
     """
     Test a sentence that is an empty string
     """
