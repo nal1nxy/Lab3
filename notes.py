@@ -38,6 +38,11 @@ class Notes:
             keys: unique words in `sentence`
             values: integers, how often corresponding key appears in `sentence`
         """
+        my_dict = {}
+        my_list = sentence.split()
+        for word in my_list:
+            my_dict[word] = my_dict.get(word, 0) + 1
+        return my_dict
 
     def word_histogram(self):
         """

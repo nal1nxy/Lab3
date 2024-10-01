@@ -18,6 +18,8 @@ def main():
     print(f'Notes count: {n_count}')
 
     # create another Notes object and find out something else about it.
+    Sentence = "create another Notes object and find out something else about it."
+    print(Notes.how_often_word(Sentence))
 
 
 main()
